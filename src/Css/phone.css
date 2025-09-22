@@ -1,0 +1,146 @@
+/* Styles for phones */
+@media screen and (max-width: 478px) {
+  /* --------------footer */
+  #footer-box {
+    flex-direction: column;
+    max-height: fit-content;
+  }
+
+  #footer-right,
+  #footer-left {
+    width: 90vw;
+    height: 31vh;
+    margin-top: 2rem;
+  }
+  #footer-right {
+    margin-bottom: 1rem;
+  }
+  .leaflet-container {
+    margin: 0;
+  }
+  .ul-container ul li {
+    line-height: 5rem;
+  }
+  /* ---------------sec2------------- */
+
+  .input-book {
+    font-size: 0.65rem;
+  }
+
+  /* --------------sec3---------------------------- */
+  #ul-box ul {
+    font-size: 3vw; /* Ensure .reserve class is visible and rendered */
+  }
+  #ul-box li {
+    border-bottom: 0.5px dotted gold;
+    padding: 4vw 0 5vw;
+    line-height: 5.7vw;
+    filter: none;
+  }
+
+  #ul-box li:last-child {
+    border-bottom: none;
+  }
+
+  /* -------------------sec6-carousel--------------------- */
+  .carousel-box {
+    gap: 14.5vw;
+  }
+
+  .bottle h4,
+  .bottle p,
+  .carousel .prev,
+  .carousel .next {
+    display: none;
+  }
+  /* ---------------------sec7------------------ */
+
+  #som-box {
+    flex-direction: column;
+    align-items: center;
+    margin: 4vh auto 5vh;
+  }
+
+  .som {
+    width: 40vw;
+    margin: 0 0 2rem;
+  }
+  .som-img {
+    height: 40vw;
+    width: 40vw;
+  }
+
+  /* ----------------------------WINES------------------------------------------------ */
+
+  .wines-container {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 2vw;
+  }
+  .wine-card {
+    width: 30vw;
+  }
+  .wine-card p {
+    font-size: 1.88vw;
+  }
+  .pagination-container {
+    display: none;
+  }
+  .wine-card img:hover {
+    transform: none;
+  }
+
+  /* --------------------BOARDS------------------------- */
+
+  #boards-title {
+    width: 98vw;
+    padding-bottom: 0;
+    /* border: 1px solid red; */
+  }
+
+  /* .all-box img:hover {
+    transform: none;
+  } */
+
+  .food-item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .food-item h4 {
+    margin-bottom: 3vw;
+  }
+  .food-item img:hover {
+    transform: none;
+  }
+
+  .food-item p {
+    font-size: 0.7rem;
+  }
+
+  .row {
+    gap: 5px;
+    max-width: 95vw;
+  }
+
+  /* border: 3px solid red; */
+  .column img {
+    margin-top: 5px;
+  }
+
+  /* --------------------contact-------------- */
+
+  .news-letter {
+    width: 90vw;
+    margin: 6rem auto 0.7rem;
+  }
+  #message {
+    width: 99%;
+    height: 30vh;
+    outline: none;
+    resize: none;
+  }
+
+  .news-form #email1 {
+    height: 1.5rem;
+    font-size: small;
+  }
+}

@@ -1,0 +1,32 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+/* .back,
+.front */
+.layer {
+  position: absolute;
+  top: 78vh;
+  width: 30vw;
+  height: 1280px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 30vw;
+  position: absolute;
+}
+
+.back {
+  background-image: url(./assets/invention.jpg);
+}
+.front {
+  background-image: url(./assets/hands.jpg);
+}
+.text {
+  position: absolute;
+  top: 82vh;
+  left: 45vw;
+  color: orange;
+  text-transform: uppercase;
+}

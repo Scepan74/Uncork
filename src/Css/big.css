@@ -1,0 +1,99 @@
+/* Styles for tvs and large screens */
+@media screen and (min-width: 1200px) {
+  .burger {
+    display: none;
+  }
+
+  /* ---------------------footer------------------- */
+
+  #footer-left {
+    height: 25vw;
+    width: 46vw;
+  }
+
+  .footer-icon {
+    margin-right: 1.2rem;
+  }
+  #footer-right {
+    width: 46vw;
+  }
+
+  .leaflet-container {
+    margin: 2.5rem 0 1rem;
+  }
+
+  /* ---------------sec6-carousel--------------------- */
+  .bottle h4 {
+    font-size: 0.7rem;
+  }
+
+  /* --------------------Boards------------------------- */
+  #boards-title {
+    padding-bottom: 0;
+  }
+
+  #boards-title p {
+    font-size: 0.8rem;
+  }
+
+  .food-item img {
+    max-width: 30rem;
+    max-height: 18rem;
+    /* border: 1px solid red; */
+  }
+
+  .food-item h4 {
+    flex: 1;
+    font-size: 1rem;
+    max-width: 23%;
+  }
+  .food-item p {
+    font-size: 0.7rem;
+    max-width: 23%;
+  }
+
+  .food-box > p {
+    width: 85vw;
+    font-size: 0.8rem;
+    margin: 3rem auto 0;
+  }
+  .row {
+    display: flex;
+    flex-wrap: no-wrap;
+    gap: 5px;
+    max-width: 95vw;
+    margin: 0 auto 0;
+    height: fit-content;
+    justify-content: space-between;
+  }
+
+  .column {
+    width: fit-content;
+    flex: 1;
+    z-index: 1;
+  }
+
+  .column img {
+    margin-top: 5px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  /* --------------------contact-------------- */
+
+  .news-letter {
+    width: 90vw;
+    margin: 6rem auto 0.7rem;
+  }
+  #message {
+    width: 99%;
+    height: 30vh;
+    outline: none;
+    resize: none;
+  }
+
+  .news-form #email1 {
+    height: 1.5rem;
+    font-size: small;
+  }
+}

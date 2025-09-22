@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --border: 1px solid #edc967;
+}
+
+@font-face {
+  font-family: "Young";
+  src: url("../assets/fonts/YoungMorinRegular-JRzjm.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Aguero";
+  src: url("../assets/fonts/AgueroSerifFreeItalic-1GDLZ.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Angelic";
+  src: url("../assets/fonts/AngelicBonquesFreeSansIta-YzE8v.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Avoda";
+  src: url("../assets/fonts/Avoda-GO0xP.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Ethereal";
+  src: url("../assets/fonts/EtherealBlack-BWrW8.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Grance";
+  src: url("../assets/fonts/GranceDemo-2ORye.otf") format("truetype");
+}
+@font-face {
+  font-family: "Hallie";
+  src: url("../assets/fonts/Halliethompsonserifdemo-DOzL1.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Kane";
+  src: url("../assets/fonts/Kane-lgarw.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Karima";
+  src: url("../assets/fonts/KarimaForPersonalUseOnly-ZVPJm.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Morgan";
+  src: url("../assets/fonts/Morgan-p7m7r.otf") format("truetype");
+}
+@font-face {
+  font-family: "MorganRounded";
+  src: url("../assets/fonts/MorganRoundedExpandedSpacing-3z7z6.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Chantelli";
+  src: url("../assets/fonts/Chantelli_Antiqua.ttf") format("truetype");
+}
+body {
+  font-family: "MorganRounded";
+  /* "Karima"; */
+  /* "Kane"; */
+  /* "Morgan"; */
+  /* "Chantelli"; */
+  /* "Grance"; */
+  /* "Avoda"; */
+  /* "Svarge"; */
+  /* "Hallie"; */
+}
